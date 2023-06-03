@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#time {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.hours,.minutes {
+    position: relative;
+}
+.hours::after, .minutes::after {
+    content: ':';
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 104%;
+}
+.img-time {
+    height: 50px;
+}
+.current-time {
+    margin: 0 auto;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    
+    border: 5px black dotted;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
